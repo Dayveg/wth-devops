@@ -17,7 +17,7 @@ const Index = ({ pets }) => {
       {pets.map((pet) => (
         <div key={pet._id}>
           <div className="card">
-            <img src="path/to/calico.jpg" />
+            <img src="https://github.com/Dayveg/wth-devops/blob/main/src/calico.jpg" />
             <h5 className="pet-name">{pet.name}</h5>
             <div className="main-content">
               <p className="pet-name">{pet.name}</p>
